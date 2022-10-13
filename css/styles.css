@@ -358,19 +358,20 @@ header {
             "title img"
             "subtitle img"
             "text img";
+
         grid-column-gap: 2em;
     }
     .section__title--about{
         grid-area: title;
     }
 
-    .section__subtitle--about{
+    .section__subtitle--about {
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
         left: -1em;
         width: calc(100% + 4em);
-        padding-left: em;
+        padding-left: 1em;
         padding-right: calc(200px + 4em);
 
     }
@@ -381,13 +382,16 @@ header {
         z-index: 2;
     }
 
+    .badge-base{
+        position: relative;
+        grid-row: 3;
+        grid-column: 2;
+        
+    
+    }
 }
 /* linkedin badge */
-.badge-base{
-    position: absolute;
-    left: 950px;
-    top: 1513px;
-}
+
 /* my work */
 
 .my-work{
